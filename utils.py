@@ -34,6 +34,8 @@ def clean_business_conduct_policy(docs, n_remove_first_lines = -1, n_discard_pag
     
     return cleaned_docs 
 
+def clean_gemma_chain_response(decoded_output, keyword="###Answer:"):
+    return decoded_output.split(keyword)[-1].strip()
 
 def clean_gemma_response(decoded_output, user_message):
     if user_message in decoded_output:
