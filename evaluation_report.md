@@ -79,6 +79,7 @@ Then RAG-based evaulation metrics have changed as follows:
 'ROUGE-2': {'Precision': 0.05729166666666667, 'Recall': 0.04512012514464919, 'F1': 0.0503481667824162},
 'ROUGE-L': {'Precision': 0.18581081081081083, 'Recall': 0.1436895770569358, 'F1': 0.16148650746425497}
 }
+```
 
 ---
 
