@@ -1,4 +1,4 @@
-# QA_BOT_RAG_LANGCHAIN
+# QA BOT with RAG (LANGCHAIN), HuggingFace LLM, and User Interface (Gradio)
 
 A modular and efficient Retrieval-Augmented Generation (RAG) system with document upload, vector search, and question answering UI powered by Gradio and LangChain.
 
