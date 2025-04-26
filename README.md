@@ -41,5 +41,5 @@ QA_BOT_RAG_LANGCHAIN/
 ├── utils.py                # Utility functions (text cleaning etc.)
 ├── config.py               # Project-wide configurations
 ├── requirements.txt        # Required libraries
-├── README.md               # This file
+├── README.md               
 └── .gitignore              # Git ignore settings
