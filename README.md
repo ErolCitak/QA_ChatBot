@@ -17,7 +17,7 @@ The system is fully modular with components for document loading, embedding gene
 
 ---
 
-## 🖼 Project Architecture
+## Project Architecture
 
 
 ```bash
@@ -39,7 +39,9 @@ QA_BOT_RAG_LANGCHAIN/
 ├── main.py                 # Gradio App UI
 ├── main.ipynb              # Optional Notebook version
 ├── utils.py                # Utility functions (text cleaning etc.)
+├── rag_evaluation.ipynb    # ROUGE-based evaluation comparison between RAG and Raw LLM Outputs
 ├── config.py               # Project-wide configurations
 ├── requirements.txt        # Required libraries
-├── README.md               
+├── README.md
+├── evaluation_report.md    # Evaluation score analysis in terms of precision-recall-F1 and their impacts 
 └── .gitignore              # Git ignore settings
