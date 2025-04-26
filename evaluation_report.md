@@ -67,9 +67,9 @@ The evaluation clearly indicates that the RAG-LangChain pipeline improves the pr
 
 ## 5. Further Experiments
 
-When some hyper-params changed, we observed better evaluation scores. The changed hyper-params can be listed as follows:
+When some hyperparams changed, we observed better evaluation scores. The changed hyper-params can be listed as follows:
 - max_new_tokens: 256 --> 1024
-- prompt: <Quesiton> --> <Question, Please explain in detail.>
+- prompt: "Question" --> "Question. Please explain in detail."
 
 Then RAG-based evaulation metrics have changed as follows:
 
