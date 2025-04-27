@@ -4,7 +4,7 @@ A modular and efficient Retrieval-Augmented Generation (RAG) system with documen
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project allows users to:
 - Upload PDF documents.
